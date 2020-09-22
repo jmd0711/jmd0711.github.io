@@ -55,8 +55,7 @@ nav ul li a{
     font-size:22px;
 }
 
-.active{
-    font-weight: bold;
+.nav-link:hover{
     color: #000000;
 }
 
@@ -206,4 +205,13 @@ a.contacts-anchor{
 .contacts-sources{
     color: #6bd5dd;
     font-size: 40px;
+}
+
+.contacts-link{
+    text-decoration: none currentColor solid;
+    color: #6bd5dd;
+}
+
+.contacts-link:hover{
+    color: #6aeaf3;
 }
