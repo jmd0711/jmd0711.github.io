@@ -76,7 +76,7 @@ a.projects-anchor{
 a.contacts-anchor{
     display: block;
     position: relative;
-    top: -150px;
+    top: 20px;
     visibility: hidden;
 }
 
@@ -159,6 +159,13 @@ a.contacts-anchor{
 
 .projects-container img{
     max-width: 95%;
+    height: auto;
+}
+
+.projects-container iframe{
+    min-width: 95%;
+    max-width: 95%;
+    min-height: 65%;
     height: auto;
 }
 
