@@ -5,17 +5,26 @@ export default function About() {
   return (
     <>
       <section className="hero about-hero">
-        <img
-          className="portrait"
-          src={profile.photo}
-          alt={`Portrait of ${profile.name}`}
-          width="240"
-          height="240"
-        />
+        <figure className="portrait-card">
+          <img
+            className="portrait"
+            src={profile.photo}
+            alt={`Portrait of ${profile.name}`}
+            width="240"
+            height="240"
+          />
+          <figcaption>
+            <p>{profile.degree}</p>
+            <p>{profile.occupation}</p>
+          </figcaption>
+        </figure>
         <div>
-          <h1>{profile.name}</h1>
           <p className="headline">{profile.headline}</p>
-          <p className="intro">{profile.intro}</p>
+          <div className="intro">
+            {profile.intro.map((text, i) => (<p key={i}>{text}</p>
+          ))}
+          </div>
+          
         </div>
       </section>
 

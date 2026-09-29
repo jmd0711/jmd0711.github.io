@@ -5,7 +5,7 @@ export default function Contact() {
     <section aria-labelledby="contact-title">
       <h1 id="contact-title" className="page-title">Contact</h1>
       <p className="intro">
-        I'm open to software engineering roles. The fastest way to reach me is email.
+        I'm open to entry level software engineering roles as well as other roles in tech. The fastest way to reach me is email.
       </p>
       <div className="links">
         <a className="button" href={`mailto:${profile.email}`}>Email me</a>
