@@ -1,23 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap");
 
 :root {
-  --paper: #f6f8fb;
-  --ink: #132038;
-  --muted: #56617a;
-  --accent: #2646e6;
-  --tag: #e2e9fb;
-  --line: #d3dae8;
+  /* dark (default) */
+  --paper: #0f1626;
+  --ink: #e9edf7;
+  --muted: #9aa6c0;
+  --accent: #8fa6ff;
+  --tag: #1d2946;
+  --line: #26314d;
   --font: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --paper: #0f1626;
-    --ink: #e9edf7;
-    --muted: #9aa6c0;
-    --accent: #8fa6ff;
-    --tag: #1d2946;
-    --line: #26314d;
+    --paper: #f6f8fb;
+    --ink: #132038;
+    --muted: #56617a;
+    --accent: #2646e6;
+    --tag: #e2e9fb;
+    --line: #d3dae8;
   }
 }
 

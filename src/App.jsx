@@ -1,20 +1,18 @@
 import "./App.css";
 
-// Edit this object; the page renders entirely from it.
 const profile = {
-  name: "Your Name",
+  name: "Jasper Matthew Dumdumaya",
   headline: "Software engineer who builds and ships full-stack web apps.",
   intro:
     "I just finished my master's in software engineering. I like turning messy problems into small, reliable tools, and I'm looking for my first full-time engineering role.",
-  email: "you@example.com",
+  email: "2jmd0711@gmail.com",
   links: [
-    { label: "GitHub", href: "https://github.com/your-handle" },
-    { label: "LinkedIn", href: "https://linkedin.com/in/your-handle" },
-    { label: "Resume (PDF)", href: "/resume.pdf" },
+    { label: "GitHub", href: "https://github.com/jmd0711" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/jasper-matthew-dumdumaya/" },
+    { label: "Resume (PDF)", href: "/Resume_JasperMatthewDumdumaya.pdf" },
   ],
 };
 
-// Lead with outcomes, not features. Aim for 3 to 5 strong projects.
 const projects = [
   {
     title: "Project name",
