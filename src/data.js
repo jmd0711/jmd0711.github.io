@@ -23,21 +23,29 @@ export const profile = {
 
 export const projects = [
   {
-    title: "Project name",
+    title: "DermaSight",
     summary:
-      "One sentence on the problem it solves and the result, ideally with a number (users, speed-up, tests, uptime).",
-    role: "Solo project, 6 weeks",
-    stack: ["React", "Node.js", "PostgreSQL"],
-    live: "https://example.com",
-    code: "https://github.com/your-handle/project",
+      "Designed and deployed a full-stack web application that analyzes uploaded skin lesion images using a trained ML model, enabling automated preliminary condition assessment via image-based inference.",
+    role: "Team of 4, Capstone",
+    stack: ["Next.js", "React", "Flask", "MongoDB", "Amazon S3", "Vercel"],
+    //live: "https://example.com",
+    code: "https://github.com/jmd0711/DermaSight",
   },
   {
-    title: "Second project",
+    title: "Email Spam Detection",
     summary:
-      "What you built, one technical decision you're proud of, and what you learned from it.",
-    role: "Team of 4, capstone",
-    stack: ["TypeScript", "Docker", "AWS"],
-    code: "https://github.com/your-handle/second-project",
+      "An end-to-end machine-learning pipeline for spam email classification using the CEAS08 and SpamAssassin datasets, achieving a cross-data accuracy of 74%.",
+    role: "Solo project",
+    stack: ["Python", "Scikit-Learn", "Pandas", "CLI"],
+    code: "https://github.com/jmd0711/SpamDetection",
+  },
+  {
+    title: "Airport Management Website",
+    summary:
+      "A full stack project that allows users to manage flights and passengers in a given airport.",
+    role: "Team of 4",
+    stack: ["React", "SpringBoot", "AWS EC2", "AWS RDS"],
+    code: "",
   },
 ];
 
