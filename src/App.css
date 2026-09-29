@@ -104,3 +104,22 @@ footer { margin-top: 5rem; padding-top: 1.5rem; border-top: 1px solid var(--line
 
 .page-title { font-size: clamp(2rem, 6vw, 3.25rem); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 1.5rem; }
 .project-title { margin: 0; font-size: 1.35rem; }
+
+.about-hero {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.about-hero > div { min-width: 0; }
+.portrait {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .about-hero { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
+  .portrait { width: 160px; height: 160px; }
+}

@@ -4,13 +4,18 @@ import { profile, skills } from "../data.js";
 export default function About() {
   return (
     <>
-      <section className="hero">
-        <h1>{profile.name}</h1>
-        <p className="headline">{profile.headline}</p>
-        <p className="intro">{profile.intro}</p>
-        <div className="links">
-          <Link className="button" to="/projects">See my projects</Link>
-          <a href={profile.resume}>Resume (PDF)</a>
+      <section className="hero about-hero">
+        <img
+          className="portrait"
+          src={profile.photo}
+          alt={`Portrait of ${profile.name}`}
+          width="240"
+          height="240"
+        />
+        <div>
+          <h1>{profile.name}</h1>
+          <p className="headline">{profile.headline}</p>
+          <p className="intro">{profile.intro}</p>
         </div>
       </section>
 

@@ -1,5 +1,6 @@
 export const profile = {
   name: "Jasper Matthew Dumdumaya",
+  photo: "/photo.jpg",
   headline: "Software engineer who builds and ships full-stack web apps.",
   intro:
     "I just finished my master's in software engineering. I like turning messy problems into small, reliable tools, and I'm looking for my first full-time engineering role.",
